@@ -4,9 +4,10 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+//สำหรับการเรียกใช้งาน
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var menuRouter = require('./routes/menu'); //newrouter
+var menuRouter = require('./routes/menu'); 
 var footerRouter = require('./routes/footer');
 var newsRouter = require('./routes/news');
 
