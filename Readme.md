@@ -7,3 +7,10 @@
     1. ทำไมต้องใช้ Node.js
     2. การเรียนรู้เกี่ยวกับ Node.JS เบื้องต้น
     3. การเชื่อต่อ Font-end // Back-end ด้วย ejs
+
+### การติดตั้ง express generator
+    ใช้คำสั่งนี้เพื่อทำการติดตั้ง
+    ```
+            npm intsall -g express-genaerator
+
+    ```
