@@ -6,4 +6,4 @@ router.get('/', function(req, res, next) {
   res.render("news");
 });
 
-module.exports = router;
+module.exports = router; 
