@@ -9,8 +9,11 @@
     3. การเชื่อต่อ Font-end // Back-end ด้วย ejs
 
 ### การติดตั้ง express generator
-    ใช้คำสั่งนี้เพื่อทำการติดตั้ง
-    ```
-            npm intsall -g express-genaerator
 
-    ```
+    ใช้คำสั่งนี้เพื่อทำการติดตั้ง
+        npm intsall -g express-genaerator
+
+# The challenge of this project 
+    
+    1. สามารถเชื่อต่อ Menu ที่มีไปทุกหน้าได้
+    2. ใน Menu สามารถกลับมาที่ Index ได้
