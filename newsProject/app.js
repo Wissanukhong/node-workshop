@@ -8,10 +8,10 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var menuRouter = require('./routes/menu'); 
-var footerRouter = require('./routes/footer');
-var newsRouter = require('./routes/news');
 var aboutRouter = require('./routes/about');
-
+var newsRouter = require('./routes/news');
+var footerRouter = require('./routes/footer');
+var contactRouter = require('./routes/contact');
 
 var app = express();
 
@@ -31,6 +31,7 @@ app.use('/menu', menuRouter);
 app.use('/footer', footerRouter);
 app.use('/news', newsRouter);
 app.use('/about', aboutRouter);
+app.use('/contact', contactRouter);
 
 
 // catch 404 and forward to error handler
